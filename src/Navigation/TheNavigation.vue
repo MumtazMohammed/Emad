@@ -32,12 +32,7 @@
 
       <v-dialog transition="dialog-bottom-transition" max-width="600">
         <template v-slot:activator="{ on, attrs }">
-          <v-toolbar
-            class="btn-contact-me"
-            flat
-            color="transparent"
-            height="380"
-          >
+          <v-toolbar class="btn-contact-me" flat color="transparent">
             <v-btn
               elevation="0"
               icon
@@ -55,6 +50,27 @@
             <v-toolbar class="title-contact" color="#E84545">
               مرحباً. أتشرف بك بالتواصل معي
             </v-toolbar>
+            <!--  -->
+            <v-card color="transparent" flat>
+              <v-card-title class="title-contact justify-center">
+                تواصل معي على الهاتف
+              </v-card-title>
+              <v-card-actions class="justify-center">
+                <v-btn
+                  href="tel:+966507098808"
+                  width="200"
+                  class="social"
+                  color="#eee"
+                  large
+                  outlined
+                >
+                  <v-icon>mdi-whatsapp </v-icon>
+                  <v-spacer></v-spacer>
+                  Call me
+                </v-btn>
+              </v-card-actions>
+            </v-card>
+            <!--  -->
             <!--  -->
             <v-card color="transparent" flat>
               <v-card-title class="title-contact justify-center">
@@ -211,10 +227,7 @@ export default {
 .item {
   padding-right: 6px;
 }
-.btn-contact-me::v-deep .v-toolbar__content {
-  align-items: end;
-  justify-content: center;
-}
+
 ::v-deep .v-btn--icon.v-size--small {
   width: 40px;
   height: 40px;
