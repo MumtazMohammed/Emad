@@ -25,6 +25,7 @@
           :key="item.title"
           link
           active-class="active"
+          @click="mini == false"
         >
           <v-list-item-icon>
             <v-icon class="icon">{{ item.icon }}</v-icon>

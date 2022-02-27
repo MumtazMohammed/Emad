@@ -450,7 +450,7 @@ export default {
   }
   .card-text {
     font-family: $fontfamliy !important;
-    color: $color-background !important;
+    color: $fontcolor !important;
     letter-spacing: 0;
     font-size: 14px !important;
     height: 70px;
