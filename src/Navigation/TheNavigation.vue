@@ -3,6 +3,7 @@
     <v-navigation-drawer
       app
       permanent
+      fixed
       color="#2B2E4A"
       class="rounded-0"
       width="55"
