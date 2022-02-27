@@ -3,11 +3,18 @@ import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
-
+import vuetify from "./plugins/vuetify";
+import "animate.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 Vue.config.productionTip = false;
 
 new Vue({
+  created() {
+    AOS.init();
+  },
   router,
   store,
+  vuetify,
   render: (h) => h(App),
 }).$mount("#app");
