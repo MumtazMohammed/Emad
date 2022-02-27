@@ -1,13 +1,11 @@
 <template>
   <v-card class="TheNavigation">
     <v-navigation-drawer
-      v-model="drawer"
-      :mini-variant.sync="mini"
-      permanent
-      expand-on-hover
       app
-      @mouseover.stop="mini = !mini"
-      @mouseenter.stop="mini = !mini"
+      permanent
+      color="#2B2E4A"
+      class="rounded-0"
+      width="55"
     >
       <v-list-item class="px-2">
         <v-list-item-avatar>
@@ -15,7 +13,6 @@
             src="../assets/WhatsApp Image 2022-02-26 at 4.58.36 PM.jpeg"
           ></v-img>
         </v-list-item-avatar>
-        <v-list-item-title>عماد أمين الحريبي</v-list-item-title>
       </v-list-item>
       <v-divider></v-divider>
       <v-list>
@@ -25,16 +22,9 @@
           :key="item.title"
           link
           active-class="active"
-          @click="mini == false"
+          class="my-2"
         >
-          <v-list-item-icon>
-            <v-icon class="icon">{{ item.icon }}</v-icon>
-          </v-list-item-icon>
-          <v-list-item-content>
-            <v-list-item-title class="title">{{
-              item.title
-            }}</v-list-item-title>
-          </v-list-item-content>
+          <v-icon class="icon">{{ item.icon }}</v-icon>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -71,15 +61,14 @@ export default {
   font-family: $fontfamliy;
 
   .icon {
-    color: $color-2;
+    color: $color-background;
   }
   .active {
     color: #fff !important;
     background-color: $color-1;
   }
   .active {
-    color: $color-background !important;
-    background-color: $color-1;
+    border-right: 3px solid $color-2;
   }
   ::v-deep.theme--light.v-list-item--active:before {
     opacity: 0;
