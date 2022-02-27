@@ -9,13 +9,7 @@
       </v-col>
       <v-col cols="12">
         <v-card-actions class="justify-center">
-          <v-avatar class="mx-3 avatar" tile size="50" color="transparent">
-            <v-img
-              contain
-              src="../assets/mortarboard.png"
-              alt="../assets/mortarboard.png"
-            />
-          </v-avatar>
+ 
           <v-avatar class="mx-3 avatar" tile size="45" color="transparent">
             <v-img
               contain

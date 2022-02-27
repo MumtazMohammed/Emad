@@ -21,7 +21,16 @@
             </v-avatar>
           </v-card-actions>
         </v-col>
+
         <v-col cols="12" sm="7" md="8" class="my-auto">
+          <v-col cols="12">
+            <v-card-actions class="justify-center">
+              <v-avatar size="40" color="transparent" tile>
+                <img src="../assets/writing.png" alt="alt" />
+              </v-avatar>
+            </v-card-actions>
+            <span class="line my-3"></span>
+          </v-col>
           <v-card flat class="mt-4 mx-auto" dark color="transparent">
             <v-card-text
               class="intro-text text-center pt-0 grey--text text--darken-2"
@@ -32,9 +41,6 @@
               وتطوير العمل .
             </v-card-text>
           </v-card>
-          <v-col cols="12">
-            <span class="line my-3"></span>
-          </v-col>
         </v-col>
       </v-row>
       <v-divider class=""></v-divider>

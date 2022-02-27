@@ -1,5 +1,24 @@
 <template>
   <div class="home">
+    <v-card width="100%" height="200" flat class="rounded-0" color="#2B2E4A">
+      <v-card-title class="justify-center tital-first">
+        جميع الـمهـارات المتقنة
+      </v-card-title>
+      <v-col cols="12">
+        <span class="line my-3"></span>
+      </v-col>
+      <v-col cols="12">
+        <v-card-actions class="justify-center">
+          <v-avatar class="mx-3 avatar" tile size="45" color="transparent">
+            <v-img
+              contain
+              src="../assets/settings.png"
+              alt="../assets/settings.png"
+            />
+          </v-avatar>
+        </v-card-actions>
+      </v-col>
+    </v-card>
     <v-container>
       <v-row class="mt-2">
         <v-col cols="12">
@@ -326,7 +345,7 @@
         </v-col>
         <v-col
           data-aos="zoom-out"
-          data-aos-delay="500"
+          data-aos-delay="300"
           data-aos-duration="500"
           data-aos-offset="0"
           data-aos-easing="ease-in-out"
@@ -359,7 +378,7 @@
         </v-col>
         <v-col
           data-aos="zoom-out"
-          data-aos-delay="1000"
+          data-aos-delay="600"
           data-aos-duration="500"
           data-aos-offset="0"
           data-aos-easing="ease-in-out"
@@ -430,7 +449,7 @@ export default {
 .home {
   width: 100%;
   min-height: 150vh;
-  padding: $padding;
+  padding-bottom: 25px;
   font-family: $fontfamliy !important;
   background-color: $color-background;
   .line {
@@ -795,5 +814,22 @@ export default {
   font-size: 16px;
   font-weight: bold;
   color: $color-2;
+}
+.tital-first {
+  font-size: 30px !important;
+  letter-spacing: 0;
+  color: $fontcolorsm;
+  @media (max-width: 589px) {
+    font-size: 25px !important;
+  }
+  @media (max-width: 496px) {
+    font-size: 20px !important;
+  }
+  @media (max-width: 420px) {
+    font-size: 18px !important;
+  }
+  @media (max-width: 390px) {
+    font-size: 16px !important;
+  }
 }
 </style>
