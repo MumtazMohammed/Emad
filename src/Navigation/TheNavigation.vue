@@ -61,14 +61,14 @@ export default {
   font-family: $fontfamliy;
 
   .icon {
-    color: $color-background;
+    color: #fff;
   }
   .active {
     color: #fff !important;
     background-color: $color-1;
   }
   .active {
-    border-right: 3px solid $color-2;
+    background-color: $color-2;
   }
   ::v-deep.theme--light.v-list-item--active:before {
     opacity: 0;
