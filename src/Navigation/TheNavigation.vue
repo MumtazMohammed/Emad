@@ -33,7 +33,7 @@
 
       <v-dialog transition="dialog-bottom-transition" max-width="600">
         <template v-slot:activator="{ on, attrs }">
-          <v-toolbar class="btn-contact-me" flat color="transparent">
+          <v-toolbar class="btn-contact-me pa-0" flat color="transparent">
             <v-btn
               elevation="0"
               icon
@@ -235,6 +235,10 @@ export default {
 }
 ::v-deep .v-dialog {
   margin: 5px;
+}
+.btn-contact-me::v-deep .v-toolbar__content{
+  align-items: center;
+  justify-content: center;
 }
 .title-contact {
   font-family: $fontfamliy !important;
