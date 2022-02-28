@@ -28,16 +28,17 @@
       </v-row>
       <v-row class="mb-2">
         <v-col class="py-1" cols="12">
-          <v-card-title class="title pa-0 py-2">
-            <span class="ml-2 span orange--text text--darken-4">1</span
-            >بكالوريوس هندسة المعمارية جامعة العلوم والتكنولوجيا 2014 - Feb 2019
+          <v-card-title class="title pa-0 py-2 align-start">
+            <span class="ml-2 span orange--text text--darken-4">1</span>
+            بكالوريوس هندسة المعمارية جامعة العلوم <br />
+            والتكنولوجيا 2014 - Feb 2019
           </v-card-title>
         </v-col>
         <v-col class="py-1" cols="12">
-          <v-card-title class="title pa-0 py-2">
+          <v-card-title class="title pa-0 py-2 align-start">
             <span class="ml-2 span orange--text text--darken-4">2</span>
-            ثانوية عامة ثانوية الفهد - المملكة العربية السعودية Feb 2013 - Feb
-            2011
+            ثانوية عامة ثانوية الفهد - المملكة العربية <br />السعودية Feb 2013 -
+            Feb 2011
           </v-card-title>
         </v-col>
       </v-row>
@@ -51,26 +52,30 @@
         </v-col>
       </v-row>
       <v-row class="mb-2">
-        <v-col class="py-1" cols="12" md="4" sm="6">
+        <v-col class="py-1" cols="12" >
           <v-card-title class="title pa-0 py-2">
             <span class="ml-2 span orange--text text--darken-4">1</span> الرخصة
             الدولية لقياده الحاسوب
           </v-card-title>
-          <v-card-text class="pb-2"> ( جامعة العلوم والتكنولوجيا )</v-card-text>
+          <v-card-text class="pb-2 px-1">
+            ( جامعة العلوم والتكنولوجيا )</v-card-text
+          >
         </v-col>
-        <v-col class="py-1" cols="12" md="4" sm="6">
+        <v-col class="py-1" cols="12">
           <v-card-title class="title py-2 pa-0">
             <span class="ml-2 span orange--text text--darken-4">2</span>
             عددة دورات للغه الانجليزية
           </v-card-title>
-          <v-card-text class="pb-2">( جامعة العلوم والتكنولوجيا ) </v-card-text>
+          <v-card-text class="pb-2 px-1"
+            >( جامعة العلوم والتكنولوجيا )
+          </v-card-text>
         </v-col>
-        <v-col class="py-1" cols="12" md="4" sm="6">
+        <v-col class="py-1" cols="12" >
           <v-card-title class="title py-2 pa-0">
             <span class="ml-2 span orange--text text--darken-4">3</span> دورات
             تدريبية للبرامج الهندسية
           </v-card-title>
-          <v-card-text class="pb-2"
+          <v-card-text class="pb-2 px-1"
             >وحدة التدريب التطبيقي - دايمز للهندسة</v-card-text
           >
         </v-col>
@@ -92,10 +97,10 @@
           </v-card-title>
         </v-col>
         <v-col class="py-1" cols="12">
-          <v-card-title class="title py-2s pa-0">
+          <v-card-title class="title py-2s pa-0 align-start">
             <span class="ml-2 span orange--text text--darken-4">2</span>
-            مهندس معماري, مكتب عبدالعزيز الجهني للاستشارات الهندسية 2020 2021 |
-            جدة
+            مهندس معماري, مكتب عبدالعزيز الجهني <br />للاستشارات الهندسية 2020
+            2021 | جدة
           </v-card-title>
         </v-col>
         <v-col class="py-1" cols="12">
@@ -105,9 +110,9 @@
           </v-card-title>
         </v-col>
         <v-col class="py-1" cols="12">
-          <v-card-title class="title py-2s pa-0">
+          <v-card-title class="title py-2s pa-0 align-start">
             <span class="ml-2 span orange--text text--darken-4">4</span> دورات
-            مهندس معماري, نور بان للاستشارات الهندسية 2021 2022 | جدة
+            مهندس معماري, نور بان للاستشارات <br />الهندسية 2021 2022 | جدة
           </v-card-title>
         </v-col>
       </v-row>
@@ -155,7 +160,7 @@ export default {
 
   .span {
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
   }
 }
