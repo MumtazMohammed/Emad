@@ -119,7 +119,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="0"
+                data-aos-offset="-200"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
@@ -140,7 +140,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="0"
+                data-aos-offset="-200"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
@@ -161,7 +161,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="0"
+                data-aos-offset="-200"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
