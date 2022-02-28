@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <v-card width="100%" height="200" flat class="rounded-0" color="#2B2E4A">
-      <v-card-title class="justify-center tital-first">
+      <v-card-title class="justify-center tital-first pb-2">
         جميع الـمهـارات المتقنة
       </v-card-title>
       <v-col cols="12">
@@ -35,7 +35,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="200"
+                data-aos-offset="0"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
@@ -56,7 +56,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="200"
+                data-aos-offset="0"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
@@ -77,7 +77,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="200"
+                data-aos-offset="0"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
@@ -98,7 +98,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="200"
+                data-aos-offset="0"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
@@ -119,7 +119,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="200"
+                data-aos-offset="0"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
@@ -140,7 +140,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="200"
+                data-aos-offset="0"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
@@ -161,7 +161,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="50"
+                data-aos-offset="0"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
@@ -193,7 +193,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="0"
+                data-aos-offset="-200"
                 data-aos-delay="2000"
                 data-aos-duration="300"
                 data-aos-easing="ease-in-out"
@@ -214,11 +214,11 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="0"
+                data-aos-offset="-200"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
+                data-aos-mirror="false"
                 data-aos-once="true"
                 class="ma-0"
               >
@@ -235,7 +235,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="0"
+                data-aos-offset="-200"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
@@ -256,7 +256,7 @@
               <span></span>
               <p
                 data-aos="fade"
-                data-aos-offset="0"
+                data-aos-offset="-200"
                 data-aos-delay="2000"
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"

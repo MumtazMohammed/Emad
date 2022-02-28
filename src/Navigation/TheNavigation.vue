@@ -3,7 +3,7 @@
     <v-navigation-drawer
       app
       permanent
-      fixed
+      
       color="#2B2E4A"
       class="rounded-0"
       width="55"
@@ -236,7 +236,7 @@ export default {
 ::v-deep .v-dialog {
   margin: 5px;
 }
-.btn-contact-me::v-deep .v-toolbar__content{
+.btn-contact-me::v-deep .v-toolbar__content {
   align-items: center;
   justify-content: center;
 }

@@ -56,7 +56,7 @@
           <v-col cols="12" sm="6" md="4" class="py-1">
             <v-card
               data-aos="zoom-in"
-              data-aos-offset="0"
+              data-aos-offset="-200"
               data-aos-delay="0"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -78,7 +78,7 @@
           <v-col cols="12" sm="6" md="4" class="py-1">
             <v-card
               data-aos="zoom-in"
-              data-aos-offset="0"
+              data-aos-offset="-200"
               data-aos-delay="300"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -100,7 +100,7 @@
           <v-col cols="12" sm="6" md="4" class="py-1">
             <v-card
               data-aos="zoom-in"
-              data-aos-offset="0"
+              data-aos-offset="-200"
               data-aos-delay="600"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -122,7 +122,7 @@
           <v-col cols="12" sm="6" md="4" class="py-1">
             <v-card
               data-aos="zoom-in"
-              data-aos-offset="0"
+              data-aos-offset="-200"
               data-aos-delay="900"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -144,7 +144,7 @@
           <v-col cols="12" sm="6" md="4" class="py-1">
             <v-card
               data-aos="zoom-in"
-              data-aos-offset="0"
+              data-aos-offset="-200"
               data-aos-delay="1200"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -165,7 +165,7 @@
           <v-col cols="12" sm="6" md="4" class="py-1">
             <v-card
               data-aos="zoom-in"
-              data-aos-offset="0"
+              data-aos-offset="-200"
               data-aos-delay="1500"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
@@ -191,7 +191,7 @@
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               data-aos-once="true"
-              data-aos-offset="0"
+              data-aos-offset="-200"
               dark
               shaped
               class="px-3"
@@ -209,7 +209,7 @@
               data-aos="zoom-in"
               data-aos-delay="2200"
               data-aos-duration="500"
-              data-aos-offset="0"
+              data-aos-offset="-200"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               data-aos-once="true"
@@ -232,7 +232,7 @@
               data-aos="zoom-in"
               data-aos-delay="2600"
               data-aos-duration="500"
-              data-aos-offset="0"
+              data-aos-offset="-200"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               data-aos-once="true"

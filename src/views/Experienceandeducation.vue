@@ -1,7 +1,7 @@
 <template>
   <div class="Experienceandeducation">
     <v-card width="100%" height="200" flat class="rounded-0" color="#2B2E4A">
-      <v-card-title class="justify-center tital-first">
+      <v-card-title class="justify-center pb-2 tital-first">
         ماهي الشهادات التي أملكها
       </v-card-title>
       <v-col cols="12">
