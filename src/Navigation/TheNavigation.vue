@@ -38,7 +38,7 @@
               elevation="0"
               icon
               small
-              class="green lighten-1"
+              class="blue darken-1"
               v-bind="attrs"
               v-on="on"
             >
